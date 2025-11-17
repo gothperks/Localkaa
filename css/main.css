@@ -1,0 +1,161 @@
+.electrolize-regular {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.header-base {
+    font-family: "Play", sans-serif;
+    font-weight: 1500;
+    font-size: 50px;
+    font-style: bold;
+    color: white;
+}
+
+.header{
+    font-family: "Play", sans-serif;
+    font-weight: 1500;
+    font-size: 40px;
+    font-style: bold;
+    color: white;
+}
+
+.footer-base {
+    font-family: "Play", sans-serif;
+    font-weight: 1500;
+    font-size: 30px;
+    font-style: bold;
+    color: white;  
+    height: 55px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+table {
+    font-family: Play, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    position: center;
+    margin: auto;
+    display: table;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.rules {
+  text-align: left;
+  padding: 10px;
+  transition-duration: 0.3s;
+}
+.rules:hover {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+th:hover {background-color: rgb(255, 165, 0);}
+
+tr:nth-child(even) {
+  background-color: rgb(10, 10, 10);
+}
+
+button.base {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: inline-block;
+    background-color: #36212100;
+    color: white;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+button.base:hover {
+    filter: drop-shadow(0 0 1rem rgb(255, 165, 0));
+    width: 100%;
+}
+
+button.base:hover .desc {
+    opacity: 1;
+    right: -5%;
+}
+
+.desc {
+    opacity: 0;
+    transition-duration: 0.5s;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    text-align: right;
+    position: relative;
+    font-size: 16px;
+    right: 15%;
+}
+
+body {
+    background-color: #222222;
+}
+
+.red {
+    font-family: "Play", sans-serif;
+    font-weight: 1500;
+    font-style: bold;
+    color: rgb(255, 165, 0);
+}
+
+.connectBtn:hover {
+    cursor: copy;
+}
+
+.copiedText {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-10px);
+  opacity: 0;
+  background: #222;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  pointer-events: none;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.copiedText.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(10px);
+}
+
+
+a.names {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 0%;
+    transition-duration: 0.3s;
+}
+
+a.names:hover {
+    font-size: 40px;
+    color: rgb(255, 165, 0);
+}
+
+p {
+    font-family: "Play", sans-serif;
+    font-weight: 1500;
+    font-size: 1svw;
+    font-style: bold;
+    text-align: left;
+    color: white;
+}
+
+img {
+    border-radius: 8px;
+    filter: drop-shadow(0 2px 0.75rem rgb(220, 20, 20));
+}
